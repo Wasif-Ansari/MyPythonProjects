@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-link = "https://youtu.be/LbOMrno3ByE"
+link = input("Enter video link: ")
 
 youtube_1 = YouTube(link)
 
@@ -15,5 +15,6 @@ for i in vid:
     print(i)
 
 stream = int(input("Enter Quality index: "))
+print("Downlaoding....")
 videos[stream].download()
 print("Successfully Downloaded ")
