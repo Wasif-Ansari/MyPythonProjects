@@ -4,7 +4,6 @@ from tkinter import *
 root = Tk()
 root.geometry('420x500')
 
-@profile
 
 def find_meaning():
     word = entry.get()
