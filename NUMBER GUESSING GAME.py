@@ -12,7 +12,7 @@ else:
     print("please enter a number next time")
     quit()
 
-r_num=random.randint(0,top_range)    #randint will include 11 also and randrange will not
+r_num=random.randint(0,top_range)    ##randint will include 11 also and randrange will not
 count=0
 while(True):
     user_guess = input("make a guess :")
